@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title><%= title %></title>
+        <link rel="stylesheet" href="/css/layout.css">
+        <%- style -%>
+    </head>
+    <body>
+
+        <!-- this is nothing but partial concepts -->
+        <!-- we include the _header.ejs into this file: -->
+        <%- include('_header'); -%>
+
+        
+        <!-- we can tell here is the variable part is present: -->
+        <!-- the body is predefine in the library -->
+        <%- body -%>
+
+        <!-- we include the -footer.ejs into this file: -->
+        <%- include('_footer'); -%>
+
+
+        <%- script -%>
+        
+    </body>
+</html>
